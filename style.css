@@ -1,0 +1,115 @@
+/*limpando a formatação padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    background: rgb(145, 142, 133);
+    margin: 10px;
+}
+
+#logo{
+    margin: 10px;
+}
+
+/* layout */
+#cabecalho, #area-menu{
+    background-color: crimson;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 15px;
+    text-align: center;
+    
+}
+#principal{
+    
+    width: 830px;
+    margin: 0 auto;
+
+}
+#postagens{
+    width: 500px;
+    float: left;
+
+}
+.conteudo-lateral{
+    background: rgb(39, 38, 38);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#menu-lateral{
+    width: 300px;
+    float: right;
+}
+#postagens, #menu-lateral{
+    background: #6d6868;
+}
+#rodape{
+    background: rgb(29, 28, 28);
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgba(153, 149, 149, 0.452);
+
+}
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 8px;
+    border-bottom: 2px dotted #706363;
+}
+/* formatação geral */
+p{
+    color: whitesmoke;
+}
+h1{
+    color: #c0b9b9;
+    font-size: 2.5em;
+}
+h2{
+    color: rgb(110, 100, 81);
+}
+h3{
+    color: #565656;
+    background: #cccfff;
+    padding: 8px;
+}
+#data-postagem{
+    font-size: 0.6em;
+    border-bottom: 3px solid #fff;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+a#info{
+    padding-top: 20px;
+    text-align: center;
+}
+.black{
+    color: #0f0101;
+}
+
+/*formatação links*/
+a{
+    text-decoration: none;
+}
+#cabecalho a:link, #cabecalho a:visited{
+    color: #c0b9b9;
+    background: #0f0101;
+    padding: 10px 14px;
+    border-radius: 0.25em;
+    
+    
+}
+#cabecalho a:hover{
+    color: rgb(22, 22, 22);
+    background: #706363;
+    
+}
